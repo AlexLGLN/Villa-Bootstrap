@@ -1,7 +1,7 @@
 
  
 body {
-  background-color: #6e90b3;
+  background-color: #6e90b3 !important;
 }
 
 h1 {
@@ -19,9 +19,9 @@ div.box {
 }
 
 div.center {
-  border: 2px solid black;
   padding: 2px;
   text-align: center;
+  background-color: rgb(212, 211, 211);
 
 }
 
