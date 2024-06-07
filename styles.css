@@ -1,5 +1,5 @@
  
-body {
+body{
     background-color: #6e90b3 !important;
   }
   
@@ -27,8 +27,7 @@ body {
   }
   
   div.marg {
-    position: relative;
-    text-align: center;
+    text-align: center ;
   }
   
   div.text {
@@ -58,4 +57,7 @@ div.schrift{
 h4{
   font-style: italic;
 }
-  
+.carousel-item img {
+  width:100%;
+  height:570px;
+  }

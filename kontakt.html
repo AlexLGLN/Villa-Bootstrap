@@ -31,28 +31,42 @@
 <div class="uber">
     <h1>Kontaktformular</h1>
 </div>
-<form action="/action_page.php">
-  <label for="fname">Vorname:</label>
+<div class="container text-center">
+  <form action="/action_page.php">
+  <div class="row">
+    <div class="col">
+      <label for="fbuchung">Buchungszeitraum:</label>
+      <input type="text" id="fbuchung" name="fbuchung"><br><br>
+      <label for="fname">Vorname:</label>
   <input type="text" id="fname" name="fname"><br><br>
   <label for="lname">Nachname:</label>
-  <input type="text" id="lname" name="lname"><br><br>
-  <label for="fstraße">Straße und Hausnummer:</label>
-  <input type="text" id="fstraße" name="fstraße"><br><br>
-  <label for="fort">Ort:</label>
-  <input type="text" id="fort" name="fort"><br><br>
-  <label for="fbuchung">Buchungszeitraum:</label>
-  <input type="text" id="fbuchung" name="fbuchung"><br><br>
-  <label for="haustier">Haben Sie ein Haustier?:</label>
-  <select name="haustier" id="haustier"><br><br>
-    <option value="yes">Ja</option>
-    <option value="no">Nein</option>
-    </select> <br><br>
-    <br>
-
+  <input type="text" id="lname" name="lname"><br>
+    </div>
+    <div class="col">
+      <label for="fstraße">Straße+Nr.:</label>
+      <input type="text" id="fstraße" name="fstraße"><br><br>
+      <label for="fort">Wohnort:</label>
+      <input type="text" id="fort" name="fort"><br><br>
+      <label for="haustier">Haben Sie ein Haustier?:</label>
+     <p> <select name="haustier" id="haustier"></p><br>
+        <option value="yes">Ja</option>
+        <option value="no">Nein</option>
+      </select>
+    </div>
+    </div>
+  </div>
+</div>
+<br><br>
+</form>
+<form action="/action_page.php">
+  <div class="marg">
+<p>
     <label for="datenschutz">Datenschutzerklärung gelesen</label>
     <input type="checkbox" /><br /><br />
     <input type="submit" value="bestätigen">
     </form>
+</p>
+</div>
 
 <br><br>
 
